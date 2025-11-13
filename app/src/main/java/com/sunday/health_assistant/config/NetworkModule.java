@@ -1,9 +1,9 @@
 package com.sunday.health_assistant.config;
 
-import com.sunday.health_assistant.domain.interfaces.AiApi;
-import com.sunday.health_assistant.domain.interfaces.IAiAdviceService;
-import com.sunday.health_assistant.domain.service.AiAdviceService;
-import com.sunday.health_assistant.data.RetrofitClient;
+import com.sunday.data.remote.AiApi;
+import com.sunday.data.remote.RetrofitClient;
+import com.sunday.data.service.AiAdviceService;
+import com.sunday.domain.interfaces.IAiAdviceService;
 import com.sunday.health_assistant.BuildConfig;
 
 import javax.inject.Singleton;

@@ -9,9 +9,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.sunday.domain.interfaces.ICalculateBmiUseCase;
 import com.sunday.health_assistant.R;
 import com.sunday.health_assistant.config.MyApp;
-import com.sunday.health_assistant.domain.interfaces.ICalculateBmiUseCase;
 
 import javax.inject.Inject;
 
